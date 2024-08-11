@@ -76,7 +76,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link::after {
@@ -116,7 +116,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -124,7 +124,8 @@ img {
 .contacts-link:focus,
 .nav-link.current {
   color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .hero-values {
@@ -165,12 +166,12 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-values {
   padding: 120px 0 120px 0;
@@ -234,13 +235,27 @@ img {
 }
 .section-team {
   background-color: #f4f4fd;
-  padding: 120px 0 120px;
+  padding: 120px 0;
 }
 
 .team-list {
   display: flex;
   align-items: center;
   gap: 24px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  background-color: #fff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0 0 4px 4px;
+  width: calc((100% - 3 * 24px) / 4);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-text {
+  padding: 32px 0;
+  text-align: center;
 }
 
 .team-name {
@@ -251,33 +266,19 @@ img {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+
 .team-profession {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.team-member {
-  background-color: #fff;
-  box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
-  background: #fff;
-  border-radius: 0 0 4px 4px;
-  background: #fff;
-  width: calc((100% - 3 * 24px) / 4);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team-text {
-  padding: 32px 0 32px;
-  text-align: center;
-  margin-bottom: 8px;
-}
 
 .icon-value-team {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 24px;
+  padding-bottom: 32px;
 }
 
 .icon-team {
@@ -288,17 +289,18 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 32px;
-  gap: 24px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-team:hover {
+
+.icon-team:hover,
+.icon-team:focus {
   background-color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item-icon-team {
   fill: #f4f4fd;
 }
+
 
 .portfolio {
   padding: 120px 0 120px 0;
@@ -321,6 +323,7 @@ img {
 }
 .portfolio-app {
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-app:hover .text-cover {
   box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -418,19 +421,23 @@ img {
   gap: 16px;
 }
 
-.icon-team-footer {
+.footer-link{
+  width: 100%;
+  height: 100%;
   background-color: #4d5ae5;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.icon-team-footer:hover {
+
+.icon-team-footer a:hover,
+.icon-team-footer a:focus {
   background-color: #31d0aa;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
  
-
