@@ -397,10 +397,11 @@ img {
 .container-footer {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 
-
+.footer-about {
+  margin-right: 120px;
+}
 .sm-footer {
   font-weight: 500;
   font-size: 16px;
