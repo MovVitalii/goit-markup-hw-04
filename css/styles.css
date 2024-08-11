@@ -14,11 +14,13 @@ ol {
 a {
   text-decoration: none;
 }
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
+
 h1,
 h2,
 h3,
@@ -28,22 +30,27 @@ h6,
 p {
   margin: 0;
 }
+
 img {
   display: block;
 }
+
 .header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
+
 .header-container {
   display: flex;
   align-items: center;
 }
+
 .header-nav {
   display: flex;
   align-items: center;
 }
+
 .logo {
   font-weight: 700;
   font-family: 'Raleway', sans-serif;
@@ -53,10 +60,12 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .header-logo {
   padding: 24px 0;
   margin-right: 76px;
 }
+
 .header-logo .logo-span {
   color: #2e2f42;
 }
@@ -80,7 +89,7 @@ img {
 }
 
 .nav-link::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   width: 100%;
@@ -91,6 +100,7 @@ img {
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .nav-link:hover::after,
 .nav-link:focus::after,
 .nav-link.current::after {
@@ -102,6 +112,7 @@ img {
   font-style: normal;
   margin-left: auto;
 }
+
 .contacts-list {
   display: flex;
   align-items: center;
@@ -118,6 +129,7 @@ img {
   color: #434455;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
@@ -125,7 +137,6 @@ img {
 .nav-link.current {
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .hero-values {
@@ -140,6 +151,7 @@ img {
   max-width: 1440px;
   margin: 0 auto;
 }
+
 .hero-title {
   display: block;
   margin: 0 auto;
@@ -150,6 +162,7 @@ img {
   max-width: 496px;
   margin-bottom: 48px;
 }
+
 .hero-button {
   background-color: #4d5ae5;
   font-family: inherit;
@@ -168,11 +181,13 @@ img {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .section-values {
   padding: 120px 0 120px 0;
 }
@@ -204,6 +219,7 @@ img {
   display: flex;
   gap: 24px;
 }
+
 .values-item {
   width: calc((100% - 3 * 24px) / 4);
 }
@@ -219,6 +235,7 @@ img {
   justify-content: center;
   background-color: #f4f4fd;
 }
+
 .values-title {
   font-weight: 500;
   font-size: 20px;
@@ -227,43 +244,13 @@ img {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+
 .values-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .section-team {
   background-color: #f4f4fd;
@@ -274,8 +261,7 @@ img {
   display: flex;
   align-items: center;
   gap: 24px;
-} 
-
+}
 
 .team-member {
   background-color: #fff;
@@ -286,34 +272,17 @@ img {
   width: calc((100% - 3 * 24px) / 4);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .team-text {
   padding: 32px 0;
   text-align: center;
-  
-  
-  }
+}
 
-  .team-member{
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
-    border-radius: 0px 0px 4px 4px;
-  }
+.team-member {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -322,6 +291,7 @@ img {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+
 .team-profession {
   font-size: 16px;
   line-height: 1.5;
@@ -329,27 +299,26 @@ img {
   color: #434455;
 }
 
-
-
-.team-member-photo{
+.team-member-photo {
   padding: 32px 0 32px;
 }
 
-.icon-value-team{
+.icon-value-team {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   gap: 24px;
 }
-.icon-team{
+
+.icon-team {
   width: 40px;
   height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-link-team{
+.icon-link-team {
   width: 100%;
   height: 100%;
-  background-color:  #4d5ae5;
+  background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -357,56 +326,13 @@ img {
 }
 
 .icon-link-team:hover,
-.icon-link-team:focus{
-background-color: #404bbf;
+.icon-link-team:focus {
+  background-color: #404bbf;
 }
 
-
-.item-icon-team{
+.item-icon-team {
   fill: #f4f4fd;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .portfolio {
   padding: 120px 0 120px 0;
@@ -421,23 +347,27 @@ background-color: #404bbf;
   color: #2e2f42;
   margin-bottom: 72px;
 }
+
 .portfolio-list {
   display: flex;
   gap: 48px 24px;
   flex-wrap: wrap;
   align-items: center;
 }
+
 .portfolio-app {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .portfolio-app:hover .text-cover {
   box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(0);
 }
 
 .portfolio-app:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-name {
@@ -448,20 +378,24 @@ background-color: #404bbf;
   color: #2e2f42;
   margin-bottom: 8px;
 }
+
 .portfolio-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .portfolio-text {
   padding: 32px 16px;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
 }
-.portfolio-text:hover{
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
+.portfolio-text:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -477,24 +411,27 @@ background-color: #404bbf;
   padding: 40px 32px 164px;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .cover-wrap {
   position: relative;
   overflow: hidden;
 }
+
 .footer {
   background-color: #2e2f42;
   padding: 100px 0 100px;
 }
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
+
 .footer-logo .logo-span {
   color: #f4f4fd;
 }
+
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
@@ -511,6 +448,7 @@ background-color: #404bbf;
 .footer-about {
   margin-right: 120px;
 }
+
 .sm-footer {
   font-weight: 500;
   font-size: 16px;
@@ -527,7 +465,7 @@ background-color: #404bbf;
   gap: 16px;
 }
 
-.footer-link{
+.footer-link {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -537,13 +475,11 @@ background-color: #404bbf;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .icon-team-footer a:hover,
 .icon-team-footer a:focus {
   background-color: #31d0aa;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
- 
